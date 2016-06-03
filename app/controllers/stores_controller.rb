@@ -5,4 +5,9 @@ class StoresController < ApplicationController
     render json: { stores: @stores }
     # render json: @stores
   end
+
+  def show
+    @store = Store.find(params[:id])
+    render json: @store
+  end
 end
