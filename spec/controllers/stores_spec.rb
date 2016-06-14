@@ -22,10 +22,10 @@ RSpec.describe Api::V1::StoresController, :type => :controller do
     #   expect(response).to have_http_status(200)
     # end
 
-    # it "assigns the requested contact to @contact" do
-    #   contact = Factory(:contact)
-    #   get :show, id: contact
-    #   assigns(:contact).should eq(contact)
+    # it "assigns the requested store to @store" do
+    #   store = Factory(:store)
+    #   get :show, id: store
+    #   assigns(:store).should eq(store)
     # end
   end
 end
