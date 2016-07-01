@@ -16,7 +16,7 @@ RSpec.describe Api::V1::StoresController, :type => :controller do
 
   describe "GET #show/:id" do
     # it "responds with an HTTP 200 status code" do
-    #   @store = Store.find(1)
+    #   # @store = Store.create
     #   get :show, id: @store
     #   expect(response).to be_success
     #   expect(response).to have_http_status(200)
